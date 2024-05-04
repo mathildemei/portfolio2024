@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "interl";
+    src: url("../fonts/Inter-Light.woff2");
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("../fonts/Inter-Regular.woff2");
+}
+
+@font-face {
+    font-family: "interb";
+    src: url("../fonts/Inter-Bold.woff2");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,5 +33,13 @@ img {
 
 :root {
     /* farver */
+    --textblue: #606970;
+    --backgroundblue: #D2E0E1;
+    --boxblue: #A6B8B9;
 
+
+}
+
+body {
+    font-family: interl;
 }
